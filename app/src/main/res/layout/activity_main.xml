@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F172A"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="JARVIS"
+        android:textColor="#7DD3FC"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Say 'hello Jarvis'"
+        android:textColor="#F8FAFC"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/voiceButton"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#0284C7"
+        android:text="Listen"
+        android:textAllCaps="false"
+        android:textColor="#F8FAFC"
+        android:textSize="20sp" />
+
+</LinearLayout>
